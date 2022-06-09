@@ -30,9 +30,13 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base.mk)
 $(call inherit-product, vendor/xdroid/config/common.mk)
 
 # Xdroid Stuff
-XDROID_BOOT_DARK := true
 XDROID_BOOT := 1080
-XDROID_MAINTAINER := Mikazuuu07
+XDROID_MAINTAINER := DreamersGo
+TARGET_SUPPORTS_GOOGLE_RECORDER := true
+TARGET_INCLUDE_STOCK_ARCORE := true
+TARGET_INCLUDE_LIVE_WALLPAPERS := true
+TARGET_SUPPORTS_QUICK_TAP := true
+TARGET_FACE_UNLOCK_SUPPORTED := true
 
 #
 # All components inherited here go to system_ext image
