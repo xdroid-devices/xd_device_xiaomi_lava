@@ -33,6 +33,10 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     FrameworksResOverlayLava
 
+# Overlay-xd
+DEVICE_PACKAGE_OVERLAYS += \
+    $$(DEVICE_PATH)/overlay-xd
+
 # Kernel
 PRODUCT_COPY_FILES += \
     $(DEVICE_PATH)/prebuilt/dtb.img:dtb.img

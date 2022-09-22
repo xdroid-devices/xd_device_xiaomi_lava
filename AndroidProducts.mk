@@ -15,9 +15,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-   $(LOCAL_DIR)/arrow_lava.mk
+   $(LOCAL_DIR)/xdroid_lava.mk
 
 COMMON_LUNCH_CHOICES := \
-    arrow_lava-user \
-    arrow_lava-userdebug \
-    arrow_lava-eng
+    xdroid_lava-user \
+    xdroid_lava-userdebug \
+    xdroid_lava-eng
