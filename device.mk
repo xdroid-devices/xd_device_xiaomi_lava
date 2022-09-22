@@ -55,6 +55,9 @@ PRODUCT_PACKAGES += \
     com.android.nfc_extras \
     NfcNci \
     Tag
+# Remove unwanted packages
+PRODUCT_PACKAGES += \
+    RemovePackages
 
 # SKU-specific properties
 PRODUCT_COPY_FILES += \
