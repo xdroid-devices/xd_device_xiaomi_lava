@@ -31,11 +31,8 @@ PRODUCT_COPY_FILES += \
 
 # Overlays
 PRODUCT_PACKAGES += \
-    FrameworksResOverlayLava
-
-# Overlay-xd
-DEVICE_PACKAGE_OVERLAYS += \
-    $$(DEVICE_PATH)/overlay-xd
+    FrameworksResOverlayLava \
+    SettingsOverlayLava
 
 # Kernel
 PRODUCT_COPY_FILES += \
